@@ -1,5 +1,6 @@
 # TeansServer
-a server for transmit messages between IOT devices ,it has a easy transmission protocol.
+a server for transmit messages between IOT devices ,it has a easier transmission protocol.
+用于在IOT设备之间传输消息的服务器，它具有较简单的传输协议。
 # How to use
 
 ## transmission protrol 传输协议
