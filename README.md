@@ -22,9 +22,9 @@ a server for transmit messages between IOT devices ,it has a easy transmission p
 ```
 
 # How to connect  如何使用
-tcp =>  47.75.194.9:8282
+Tcp =>  47.75.194.9:8282
 
-ws  =>  47.75.194.9:8383
+Ws  =>  47.75.194.9:8383
 
 # For Example  示例
 ## step 1:regist device 注册设备
