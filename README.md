@@ -23,12 +23,14 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 ```
 
 # How to connect  如何使用
-Tcp =>  47.75.194.9:8282
+Tcp:
+47.75.194.9:8282
 
-Ws  =>  47.75.194.9:8383
+Ws:
+47.75.194.9:8383
 
 # For Example  示例
-## step 1:regist device 注册设备
+## step 1:  regist device 注册设备
 ```
 {
     "ori":{                         //origin      源头
@@ -45,7 +47,7 @@ Ws  =>  47.75.194.9:8383
     }
 }
 ```
-## step 2:send message 发送信息
+## step 2:  send message 发送信息
 ```
 {
     "ori":{                         //origin      源头
