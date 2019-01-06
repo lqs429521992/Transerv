@@ -6,12 +6,12 @@ a server for transmit messages between IOT devices ,it has a easy transmission p
 ```
 {
     "ori":{                         //origin      源头
-        "id":"XXXXXXX",             //device_id   设备ID
+        "id":"MAX:20",             //device_id   设备ID
         "type":"XXX",               //device_type 设备类型
         "prot":"tcp/ws/heartbeat"   //protrol     协议
     },
     "obj":{                         //object      目标
-        "id":"XXXXXXX",             //device_id   设备ID
+        "id":"MAX:20",             //device_id   设备ID
         "type":"XXX",               //device_type 设备类型
         "prot":"tcp/ws/heartbeat"   //protrol     协议
     },
