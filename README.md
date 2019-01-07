@@ -4,6 +4,7 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 用于在IOT设备之间传输消息的服务器，它具有较简单的传输协议。
 
 本项目基于GatewayWorker开发 项目地址： https://github.com/walkor/GatewayWorker
+
 当前版本为Mysql版，redis版本正在编写，欢迎提出问题以便更好地服务大家。
 # How to use 如何使用
 
