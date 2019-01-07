@@ -32,7 +32,7 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 
 2.tcp与ws间延迟约为1s
 
-3.试用服务器并发约为1500
+3.试用服务器并发约为1500(单核)
 
 # How to connect  如何连接
 Tcp:
