@@ -34,9 +34,9 @@ class Events
         }
         self::$mysql_conn=new MysqlConnection('127.0.0.1',
             '3306',
-            'nodemcu',
-            'lqs4568349',
-            'nodemcu');
+            'transerv',
+            'transerv',
+            'transerv');
         echo "[".date("Y/m/d H:i:s")."]    『TcpServ』 已建立数据库连接!\n";
         return self::$mysql_conn;
     }
