@@ -10,12 +10,12 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 ```
 {
     "ori":{                         //origin      源头
-        "id":"MAX:20",              //device_id   设备ID
+        "id":"MAX:17",              //device_id   设备ID
         "type":"XXX",               //device_type 设备类型
         "prot":"tcp/ws/heartbeat"   //protrol     协议
     },
     "obj":{                         //object      目标
-        "id":"MAX:20",              //device_id   设备ID
+        "id":"MAX:17",              //device_id   设备ID
         "type":"XXX",               //device_type 设备类型
         "prot":"tcp/ws/heartbeat"   //protrol     协议
     },
@@ -26,7 +26,7 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 ```
 注:
 
-1.id 最大20位取决于数据库设计
+1.id 最大17位取决于数据库设计
 
 2.tcp与ws间延迟约为1s
 
