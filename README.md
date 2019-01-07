@@ -66,6 +66,14 @@ Ws:
     }
 }
 ```
+# How to deploy  如何部署
+step 1: open port 开放端口
+
+step 2: Download project 下载项目
+
+step 3: enter directory 进入目录
+
+step 4: execute `nohup sh start.sh &` 执行 `nohup sh start.sh &`
 # Contact me
 lqs429521992@qq.com
 
