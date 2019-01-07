@@ -78,7 +78,7 @@ Ws:
 }
 ```
 # How to deploy  如何部署
-step 1: restore sql 恢复SQL
+step 1: execute sql file 执行SQL文件
 
 step 2: open port 开放端口
 
