@@ -1,18 +1,21 @@
-# TeansServer
+# TransServer
 a server for transmit messages between IOT devices ,it has a easier transmission protocol.
+
 用于在IOT设备之间传输消息的服务器，它具有较简单的传输协议。
-# How to use
+
+当前版本为Mysql版，redis版本正在编写，欢迎提出问题以便更好地服务大家。
+# How to use 如何使用
 
 ## transmission protrol 传输协议
 ```
 {
     "ori":{                         //origin      源头
-        "id":"MAX:20",             //device_id   设备ID
+        "id":"MAX:20",              //device_id   设备ID
         "type":"XXX",               //device_type 设备类型
         "prot":"tcp/ws/heartbeat"   //protrol     协议
     },
     "obj":{                         //object      目标
-        "id":"MAX:20",             //device_id   设备ID
+        "id":"MAX:20",              //device_id   设备ID
         "type":"XXX",               //device_type 设备类型
         "prot":"tcp/ws/heartbeat"   //protrol     协议
     },
@@ -21,8 +24,15 @@ a server for transmit messages between IOT devices ,it has a easier transmission
     }
 }
 ```
+注:
 
-# How to connect  如何使用
+1.id 最大20位取决于数据库设计
+
+2.tcp与ws间延迟约为1s
+
+3.试用服务器并发约为1500
+
+# How to connect  如何连接
 Tcp:
 47.75.194.9:8282
 
@@ -65,5 +75,17 @@ Ws:
     }
 }
 ```
+# How to deploy  如何部署
+step 1: restore sql 恢复SQL
+
+step 2: open port 开放端口
+
+step 3: Download project 下载项目
+
+step 4: enter directory 进入目录
+
+step 5: execute `nohup sh start.sh &` 执行 `nohup sh start.sh &`
+
 # Contact me
 lqs429521992@qq.com
+
