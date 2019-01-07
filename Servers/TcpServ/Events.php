@@ -60,7 +60,10 @@ class Events
             $sql="SELECT net_id FROM tb_tcp ".
                 "WHERE user_id='".$msgarr['obj']['id']."'";
             $result=self::getConnection()->query($sql);
-            Gateway::sendToClient($result[0]['net_id'],$message);
+            if (isset($result[0])) {
+            	Gateway::sendToClient($result[0]['net_id'],$message);
+            }
+            // TODO 未找到目标返回错误信息
             return;
         }
         if ($msgarr['obj']['prot']=='ws') {
