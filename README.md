@@ -22,6 +22,12 @@ a server for transmit messages between IOT devices ,it has a easier transmission
     }
 }
 ```
+注:
+1.id 最大20位取决于数据库设计
+
+2.tcp与ws间延迟约为1s
+
+3.试用服务器并发约为1500
 
 # How to connect  如何连接
 Tcp:
