@@ -2,7 +2,7 @@
 a server for transmit messages between IOT devices ,it has a easier transmission protocol.
 
 用于在IOT设备之间传输消息的服务器，它具有较简单的传输协议。
-# How to use
+# How to use 如何使用
 
 ## transmission protrol 传输协议
 ```
@@ -23,7 +23,7 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 }
 ```
 
-# How to connect  如何使用
+# How to connect  如何连接
 Tcp:
 47.75.194.9:8282
 
