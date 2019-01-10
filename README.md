@@ -6,6 +6,7 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 本项目基于GatewayWorker开发 项目地址： https://github.com/walkor/GatewayWorker
 
 当前版本为Mysql版，redis版本正在编写，欢迎提出问题以便更好地服务大家。
+redis版暂不开发，如您有需求，烦请根据Mysql原理使用PHP-redis 扩展 保存设备连接信息
 # How to use 如何使用
 
 ## transmission protrol 传输协议
@@ -36,10 +37,10 @@ a server for transmit messages between IOT devices ,it has a easier transmission
 
 # How to connect  如何连接
 Tcp:
-47.75.194.9:8282
+xn--55qy30c09ad7hkw0e.online:8282
 
 Ws:
-47.75.194.9:8383
+xn--55qy30c09ad7hkw0e.online:8383
 
 # For Example  示例
 ## step 1:  regist device 注册设备
