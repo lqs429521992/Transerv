@@ -81,7 +81,7 @@ xn--55qy30c09ad7hkw0e.online:8383
 # How to deploy  如何部署
 step 1: execute sql file 执行SQL文件
 
-step 2: open port 开放端口
+step 2: open server port 8282&8383 开放服务器端口 8282&8383
 
 step 3: Download project 下载项目
 
